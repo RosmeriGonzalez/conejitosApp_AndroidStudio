@@ -13,4 +13,12 @@
         android:text="@string/reglas"
         android:textSize="18sp" />
 
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_inicio"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal" />
+
 </LinearLayout>
