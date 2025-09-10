@@ -12,16 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppConejitos">
         <activity
-            android:name=".ResultActivity"
+            android:name=".ResultadoActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".RulesActivity"
+            android:name=".ReglasActivity"
             android:screenOrientation="landscape" />
         <activity
             android:name=".MainActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".StartActivity"
+            android:name=".InicioActivity"
             android:exported="true"
             android:screenOrientation="landscape">
             <intent-filter>
