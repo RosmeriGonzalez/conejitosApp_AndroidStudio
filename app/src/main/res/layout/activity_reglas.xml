@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
@@ -11,7 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/reglas"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:layout_alignParentTop="true" />
 
     <Button
         android:id="@+id/btnHome"
@@ -19,6 +19,7 @@
         android:layout_height="wrap_content"
         android:text="@string/btn_inicio"
         android:layout_marginTop="20dp"
-        android:layout_gravity="center_horizontal" />
-
-</LinearLayout>
+        android:layout_below="@id/txtRules"
+        android:layout_centerHorizontal="true" />
+ 
+</RelativeLayout>

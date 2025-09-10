@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         btnReiniciar.setOnClickListener(v -> reiniciarJuego());
         btnInicio.setOnClickListener(v -> {
             if (countDownTimer != null) countDownTimer.cancel();
-            Intent intent = new Intent(this, StartActivity.class);
+            Intent intent = new Intent(this, InicioActivity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
             finish();
@@ -158,7 +158,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void mostrarResultado(String mensaje) {
         if (countDownTimer != null) countDownTimer.cancel();
-        Intent intent = new Intent(this, ResultActivity.class);
+        Intent intent = new Intent(this, ResultadoActivity.class);
         intent.putExtra("message", mensaje);
         intent.putExtra("tiempo", (int) tiempoInicial);
         startActivity(intent);

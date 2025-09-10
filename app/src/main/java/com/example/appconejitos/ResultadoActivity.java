@@ -7,11 +7,11 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ResultActivity extends AppCompatActivity {
+public class ResultadoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_result);
+        setContentView(R.layout.activity_resultado);
 
         TextView txtMessage = findViewById(R.id.txtMessage);
         Button btnRestart = findViewById(R.id.btnRestart);
@@ -32,7 +32,7 @@ public class ResultActivity extends AppCompatActivity {
         });
 
         btnHome.setOnClickListener(v -> {
-            Intent intent = new Intent(this, StartActivity.class);
+            Intent intent = new Intent(this, InicioActivity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
             finish();

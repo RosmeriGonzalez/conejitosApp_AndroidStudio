@@ -7,11 +7,11 @@ import android.widget.RadioGroup;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class StartActivity extends AppCompatActivity {
+public class InicioActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_start);
+        setContentView(R.layout.activity_inicio);
 
         Button btnJugar = findViewById(R.id.btnJugar);
         Button btnReglas = findViewById(R.id.btnReglas);
@@ -33,7 +33,7 @@ public class StartActivity extends AppCompatActivity {
         });
 
         btnReglas.setOnClickListener(v -> {
-            startActivity(new Intent(this, RulesActivity.class));
+            startActivity(new Intent(this, ReglasActivity.class));
         });
     }
 }
