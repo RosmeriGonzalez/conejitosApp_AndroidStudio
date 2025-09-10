@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppConejitos">
         <activity
-            android:name=".ResultActivity"
+            android:name=".ResultadoActivity"
             android:screenOrientation="landscape" />
         <activity
             android:name=".RulesActivity"
