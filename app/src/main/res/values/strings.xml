@@ -10,4 +10,5 @@
     <string name="tiempo_agotado">Tiempo agotado</string>
     <string name="reglas">Haz clic en los conejos para hacerlos saltar a la piedra siguiente. Los conejos solo pueden pasar por encima de otro una vez. Mueve los que miran a la derecha a la última piedra de la izquierda y los que miran a la izquierda a la última piedra de la derecha para ganar. Planifica tus movimientos o quedarás sin opciones. Usa el botón Reiniciar para comenzar de nuevo y recuerda que el tiempo corre.</string>
     <string name="logo_desc">Logo de la aplicación</string>
+    <string name="ganaste">¡Ganaste!</string>
 </resources>
