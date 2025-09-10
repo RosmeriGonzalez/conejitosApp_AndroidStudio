@@ -158,7 +158,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void mostrarResultado(String mensaje) {
         if (countDownTimer != null) countDownTimer.cancel();
-        Intent intent = new Intent(this, ResultActivity.class);
+        Intent intent = new Intent(this, ResultadoActivity.class);
         intent.putExtra("message", mensaje);
         intent.putExtra("tiempo", (int) tiempoInicial);
         startActivity(intent);

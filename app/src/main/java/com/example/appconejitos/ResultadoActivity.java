@@ -7,11 +7,11 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ResultActivity extends AppCompatActivity {
+public class ResultadoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_result);
+        setContentView(R.layout.activity_resultado);
 
         TextView txtMessage = findViewById(R.id.txtMessage);
         Button btnRestart = findViewById(R.id.btnRestart);
